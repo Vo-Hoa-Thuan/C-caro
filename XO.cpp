@@ -446,7 +446,7 @@ void khungplay()
     {
         gotoxy(13+i, 44); printf("%c", 205);
     }
-    gotoxy(32, 43); printf("Fb.com/vht.got");
+    gotoxy(32, 43); printf("https://www.facebook.com/vht.got");
     TextColor(11);
         for(int i = 0; i<45; i++)
     {
@@ -516,11 +516,12 @@ void about(int &thoat)
     }
  gotoxy(22, 10); TextColor(11); printf("Name:");       gotoxy(34, 10); TextColor(15); printf("VO HOA THUAN");
  gotoxy(22, 11); TextColor(11); printf("Birthday:");   gotoxy(34, 11); TextColor(10); printf("03/08/2004");
- gotoxy(22, 12); TextColor(11); printf("Fcebook:");    gotoxy(34, 12); TextColor(10); printf("Fb.com/vht.got");
+ gotoxy(22, 12); TextColor(11); printf("Fcebook:");    gotoxy(34, 12); TextColor(10); printf("https://www.facebook.com/vht.got");
  gotoxy(22, 13); TextColor(11); printf("Gmail:");      gotoxy(34, 13); TextColor(10); printf("vohoathuan.82004@gmail.com");
  gotoxy(22, 14); TextColor(11); printf("Address:");    gotoxy(34, 14); TextColor(10); printf("Chau Thanh - Tien Giang");
  gotoxy(22, 15); TextColor(11); printf("Schools:");    gotoxy(34,15); TextColor(10); printf("CNTT & KMP Ho Chi Minh");
  gotoxy(22, 16); TextColor(11); printf("Occupation:"); gotoxy(34, 16); TextColor(10); printf("Sinh Vien");
+ gotoxy(22, 17); TextColor(11); printf("GitHub:");     gotoxy(34, 17); TextColor(10); printf("https://github.com/Vo-Hoa-Thuan");
  gotoxy(22, 17); TextColor(11); printf("Hobby:");      gotoxy(34, 17); TextColor(10); printf("Play Game");
   
      gotoxy(37,40); TextColor(47); printf("  EXIT  ");
